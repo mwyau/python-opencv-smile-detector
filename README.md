@@ -1,5 +1,5 @@
 # Smile Detector with Sense HAT
-A simple face and smile detector to be used with Raspberry Pi Sense HAT.
+A simple face and smile detector for Raspberry Pi and Sense HAT.
 
 ## Requirements
 
@@ -53,7 +53,7 @@ You can test the OpenCV installation by running in Python:
 
 ## Testing Smile Detector
 
-Clone the codes, connect the webcam and try running the smile detector in debug mode. I used Logitech QuickCam Pro 9000. You may use the Raspberry Pi camera or any camera from [this list](https://elinux.org/RPi_USB_Webcams).
+Clone the codes, connect the webcam and try running the smile detector in debug mode. I used a Logitech QuickCam Pro 9000. You may use the Raspberry Pi camera or any camera from [this list](https://elinux.org/RPi_USB_Webcams).
 
 X is required to show the debug camera window. If the camera window does not open or freezes up, press Ctrl+C or the Sense HAT stick to terminate the program.
 
