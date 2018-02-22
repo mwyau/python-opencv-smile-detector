@@ -62,8 +62,8 @@ git clone https://github.com/mwyau/python-opencv-smile-detector.git smiledetecto
 cd smiledetector
 
 # Get cascade data files
-wget https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_alt.xml
 wget https://github.com/opencv/opencv/raw/master/data/haarcascades/haarcascade_frontalface_alt.xml
+wget https://github.com/opencv/opencv/raw/master/data/haarcascades/haarcascade_smile.xml
 
 ./smiledetector.py --debug
 ```
