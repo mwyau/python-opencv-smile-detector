@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 import sys
-import argparse
 
 from sense_hat import SenseHat
 
@@ -106,8 +105,10 @@ def smile_detector(debug=False):
 
 if __name__ == '__main__':
 
+    import argparse
+
     parser = argparse.ArgumentParser()
-    parser.add_argument('-d', '--debug', action='store_true', dest='debug', default=False, help='Enables debug mode with camera window (requires X)')
+    parser.add_argument('-d', '--debug', action='store_true', dest='debug', default=False, help='Enable debug mode with camera window (requires X)')
     debug = parser.parse_args().debug
     assert isinstance(debug, bool)
 
